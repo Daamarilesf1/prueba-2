@@ -11,3 +11,6 @@ RUN apt-get install -yq  build-essential \
     python3-venv
 
 ENTRYPOINT bash
+
+#docker build --tag=demo
+#docker run --rm -it demo
